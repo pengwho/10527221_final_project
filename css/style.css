@@ -1,0 +1,64 @@
+html, #app, .control-op, #answer, #target-score, .jumbotron, #score-counter {
+    background-color: #000000;
+}
+
+#mytitle.lead{ 
+ color:#FAD27F;
+ font-size: 22px;
+ font-family: 'Noto Sans TC', sans-serif;
+}	
+#game_title.display-2{
+  font-family: 'Permanent Marker', cursive;
+  color: #17A2B8;
+}
+
+#answer {
+    font-size: 4em;
+    height: 2em;
+}
+
+.problem h2{
+    font-size: 8em;
+}
+
+.button-groups {
+    margin-top: 1em;
+}
+
+#min-digits, #max-digits {
+    width: 4em;
+    border: none;
+    background-color: #17A2B8;
+}
+
+.digit-control {
+    display: inline;
+    font-weight: bolder;
+}
+
+.btn-op {
+    display: inline;
+}
+
+.control-op {
+    font-size: 2em;
+    border: none;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+#answer {
+    color: white;
+}
+
+#target-score {
+    color:#FAD27F;
+    width: 5em;
+    border: none;
+}
+
+#score-counter {
+    border: none;
+}
